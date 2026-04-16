@@ -125,16 +125,66 @@
     @keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
     .reveal{opacity:0;transform:translateY(36px);transition:opacity .75s ease,transform .75s ease}
     .reveal.on{opacity:1;transform:translateY(0)}
-    @media(max-width:700px){
-    nav{padding:0 20px}
-    .nav-links{
-    display:flex;
-    gap:6px;}
-    .nav-links a{
-    font-size:11px;
-    padding:6px 10px;
-    letter-spacing:1px;
-    }
+@media(max-width:700px) {
+  /* Fix Header Navigation */
+  nav {
+    padding: 0 15px; /* Reduce side padding */
+    height: 60px;
+  }
+
+  .nav-brand span {
+    font-size: 14px; /* Smaller text to save space */
+  }
+
+  .nav-links {
+    gap: 4px;
+  }
+
+  .nav-links a {
+    font-size: 10px;
+    padding: 6px 8px;
+    letter-spacing: 0.5px; /* Tighten spacing so they fit */
+  }
+
+  /* Fix Hero Section Spacing */
+  .hero-title {
+    font-size: clamp(40px, 15vw, 60px);
+  }
+
+  /* Fix the Email Button & Contact Card */
+  .sec {
+    padding: 60px 15px;
+  }
+
+  .contact-card {
+    padding: 40px 15px; /* Less padding inside the card */
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .contact-text {
+    font-size: 14px;
+  }
+
+  .cbtn {
+    padding: 15px 20px;
+    font-size: 13px;
+    width: 100%; /* Forces button to stay within its container */
+    max-width: 100%; 
+    word-break: break-all; /* Prevents long emails from breaking the layout */
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Stats adjustment */
+  .stats {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .stat:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+}
     }
       .sec{padding:70px 20px}.contact-card{padding:40px 24px}
       footer{padding:24px 20px;flex-direction:column;text-align:center}
