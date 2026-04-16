@@ -3,87 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <div class="flex items-center justify-center gap-3">
-</div>
   <title>Dazzle Games</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[#0b0f1a] text-white font-sans">
+<body class="bg-gradient-to-b from-[#0b0f1a] to-[#05070d] text-white font-sans">
 
   <!-- HEADER -->
-    <img src="images/Logo1.png" class="w-32 h-32">
-  <section class="text-center py-4" >
-    <h1 class="text-8xl font-bold">Dazzle Games</h1>
-    <p class="text-gray-400 mt-2">Here Are Our Mobile Games</p>
+  <section class="text-center py-10">
+    <img src="images/Logo1.png" class="w-28 h-28 mx-auto mb-4 drop-shadow-lg">
+    <h1 class="text-5xl md:text-6xl font-extrabold tracking-wide">Dazzle Games</h1>
+    <p class="text-gray-400 mt-2">Explore Our Mobile Games</p>
   </section>
 
   <!-- GAMES GRID -->
-  <section class="grid grid-cols-2 gap-6 px-6">
+  <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 px-6 max-w-5xl mx-auto">
 
     <!-- GAME CARD -->
-    <div class="bg-[#111827] p-4 rounded-2xl shadow-lg text-center">
-      <img src="images/game1.png" class="mx-auto rounded-xl mb-3 w-24 h-24">
-      <h2 class="font-semibold">Rat Prison Escape</h2>
-      <div class="flex justify-center gap-3 mt-3">
-        <button <a href="https://play.google.com/store/apps/details?id=com.kgl.obby.simulator.escape" target="_blank"
-         class="bg-blue-500 px-4 py-2 rounded-lg"><img src="images/android.png" class="w-6 h-6"></a></button>
-        <button <a href="https://apps.apple.com/kw/app/rat-prison-escape-simulator-3d/id6749019062" target="_blank"
-       class="bg-gray-600 px-4 py-2 rounded-lg"><img src="images/ios.png" class="w-6 h-6"></a></button>
+    <div class="bg-[#111827] p-5 rounded-2xl shadow-xl text-center hover:scale-105 transition duration-300">
+      <img src="images/game1.png" class="mx-auto rounded-xl mb-4 w-24 h-24 shadow-md">
+      <h2 class="font-semibold text-lg">Rat Prison Escape</h2>
+
+      <div class="flex justify-center gap-4 mt-4">
+        <a href="https://play.google.com/store/apps/details?id=com.kgl.obby.simulator.escape" target="_blank"
+           class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/android.png" class="w-5 h-5"> Android
+        </a>
+
+        <a href="https://apps.apple.com/kw/app/rat-prison-escape-simulator-3d/id6749019062" target="_blank"
+           class="bg-gray-600 hover:bg-gray-700 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/ios.png" class="w-5 h-5"> iOS
+        </a>
       </div>
     </div>
 
-    <!-- DUPLICATE CARDS -->
-    <div class="bg-[#111827] p-4 rounded-2xl shadow-lg text-center">
-      <img src="images/game2.png" class="mx-auto rounded-xl mb-3 w-24 h-24">
-      <h2 class="font-semibold">Police Chase</h2>
-      <div class="flex justify-center gap-3 mt-3">
-        <button <a href="https://play.google.com/store/apps/details?id=com.freezenova.policechasedrifter" target="_blank"
-         class="bg-blue-500 px-4 py-2 rounded-lg"><img src="images/android.png" class="w-6 h-6"></a></button>
-        <button <a href="https://apps.apple.com/kw/app/police-chase-game-car-crash/id1478848883" target="_blank"
-       class="bg-gray-600 px-4 py-2 rounded-lg"><img src="images/ios.png" class="w-6 h-6"></a></button>
+    <!-- GAME CARD -->
+    <div class="bg-[#111827] p-5 rounded-2xl shadow-xl text-center hover:scale-105 transition duration-300">
+      <img src="images/game2.png" class="mx-auto rounded-xl mb-4 w-24 h-24 shadow-md">
+      <h2 class="font-semibold text-lg">Police Chase</h2>
+
+      <div class="flex justify-center gap-4 mt-4">
+        <a href="https://play.google.com/store/apps/details?id=com.freezenova.policechasedrifter" target="_blank"
+           class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/android.png" class="w-5 h-5"> Android
+        </a>
+
+        <a href="https://apps.apple.com/kw/app/police-chase-game-car-crash/id1478848883" target="_blank"
+           class="bg-gray-600 hover:bg-gray-700 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/ios.png" class="w-5 h-5"> iOS
+        </a>
       </div>
     </div>
 
-            <!-- DUPLICATE CARDS -->
-    <div class="bg-[#111827] p-4 rounded-2xl shadow-lg text-center">
-      <img src="images/game4.png" class="mx-auto rounded-xl mb-3 w-24 h-24">
-      <h2 class="font-semibold">Spider Rescue</h2>
+    <!-- GAME CARD -->
+    <div class="bg-[#111827] p-5 rounded-2xl shadow-xl text-center hover:scale-105 transition duration-300">
+      <img src="images/game4.png" class="mx-auto rounded-xl mb-4 w-24 h-24 shadow-md">
+      <h2 class="font-semibold text-lg">Spider Rescue</h2>
 
-      <div class="flex justify-center gap-3 mt-3">
-        <button <a href="https://play.google.com/store/apps/details?id=com.starplay.spider.fighter3d" target="_blank"
-         class="bg-blue-500 px-4 py-2 rounded-lg"><img src="images/android.png" class="w-6 h-6"></a> </button>
-        <button <a href="https://apps.apple.com/kw/app/spider-fighter/id1558452075" target="_blank"
-       class="bg-gray-600 px-4 py-2 rounded-lg"><img src="images/ios.png" class="w-6 h-6"></a> </button>
+      <div class="flex justify-center gap-4 mt-4">
+        <a href="https://play.google.com/store/apps/details?id=com.starplay.spider.fighter3d" target="_blank"
+           class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/android.png" class="w-5 h-5"> Android
+        </a>
+
+        <a href="https://apps.apple.com/kw/app/spider-fighter/id1558452075" target="_blank"
+           class="bg-gray-600 hover:bg-gray-700 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/ios.png" class="w-5 h-5"> iOS
+        </a>
       </div>
     </div>
 
-        <!-- DUPLICATE CARDS -->
-    <div class="bg-[#111827] p-4 rounded-2xl shadow-lg text-center">
-      <img src="images/game3.png" class="mx-auto rounded-xl mb-3 w-24 h-24">
-      <h2 class="font-semibold">99 Nights</h2>
+    <!-- GAME CARD -->
+    <div class="bg-[#111827] p-5 rounded-2xl shadow-xl text-center hover:scale-105 transition duration-300">
+      <img src="images/game3.png" class="mx-auto rounded-xl mb-4 w-24 h-24 shadow-md">
+      <h2 class="font-semibold text-lg">99 Nights</h2>
 
-      <div class="flex justify-center gap-3 mt-3">
-        <button <a href="https://play.google.com/store/apps/details?id=com.ammonite.nights" target="_blank"
-         class="bg-blue-500 px-4 py-2 rounded-lg"><img src="images/android.png" class="w-6 h-6"></a> </button>
-        <button <a href="https://apps.apple.com/kw/app/survival-night-quest-adventure/id6752866194 target="_blank"
-       class="bg-gray-600 px-4 py-2 rounded-lg"><img src="images/ios.png" class="w-6 h-6"></a> </button>
+      <div class="flex justify-center gap-4 mt-4">
+        <a href="https://play.google.com/store/apps/details?id=com.ammonite.nights" target="_blank"
+           class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/android.png" class="w-5 h-5"> Android
+        </a>
+
+        <a href="https://apps.apple.com/kw/app/survival-night-quest-adventure/id6752866194" target="_blank"
+           class="bg-gray-600 hover:bg-gray-700 px-4 py-2 rounded-lg flex items-center gap-2 transition">
+          <img src="images/ios.png" class="w-5 h-5"> iOS
+        </a>
       </div>
     </div>
-    
+
   </section>
 
   <!-- CONTACT -->
-  <section class="text-center py-16 px-6">
-    <h2 class="text-blue-100 font-bold">CONTACT</h2>
-    <h2 class="text-3xl font-bold">WORK WITH US</h2>
-    <p class="text-gray-400 mt-4">
-      We are open to publishing deals, brand partnerships, and licensing opportunities.For business inquiries, please reach out to us directly. 
+  <section class="text-center py-20 px-6">
+    <h3 class="text-blue-400 font-semibold tracking-widest">CONTACT</h3>
+    <h2 class="text-4xl font-bold mt-2">WORK WITH US</h2>
+
+    <p class="text-gray-400 mt-4 max-w-xl mx-auto">
+      We are open to publishing deals, brand partnerships, and licensing opportunities.
+      For business inquiries, please contact us directly.
     </p>
-    
+
     <div class="mt-6">
-      <a href="mailto:contact@yourmail.com"
-         class="bg-blue-500 px-6 py-3 rounded-xl inline-block">
+      <a href="mailto:inboxdazzlegames@gmail.com"
+         class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl inline-block transition shadow-lg">
         inboxdazzlegames@gmail.com
       </a>
     </div>
